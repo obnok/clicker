@@ -1,5 +1,23 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
 .center-button {
     text-align: center;
     padding-block: 1rem;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.padding-left {
+    padding-left: 5px;
+}

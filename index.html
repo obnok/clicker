@@ -10,11 +10,23 @@
     <body>
 </head>
     <div class="center-button">
-        <h6 >Super Fancy Game</h6>
-        <h1>Lee Clicker</h1>
-        <div id="countNum">0</div>
-        <button onclick="increment()">Click Me</button>
+        <h6>Super Fancy Game</h6>
+        <h1 id="upgradeMe">Lee Clicker</h1>
+        <h3>Auto Lee's</h3>
+        <div style="font-size: 40px;" id="countNum">0</div>
+        <a></a>
+        <button onclick="increment()"><img src="unnamed.png" alt=""></button>
         <h6>woohoo</h6>
+        <div>
+            <div class="flex padding">
+                <button onclick="upgrade25()">Upgrade Lee! (25)</button>
+            </div>
+            <div class="flex padding">
+                <button onclick="autoLee1()">Auto Lee 1/s (50)</button>
+                <div class="padding-left" id="oneSec">0</div>
+            </div>
+            <!-- <div class="padding-left" id="threeSec">0</div> -->
+        </div>
     </div>
 </body>
 </html>
