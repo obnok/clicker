@@ -5,30 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Document</title>
     <body>
 </head>
     <div class="center-button">
-        <h6>Super Fancy Game</h6>
         <h1 id="upgradeMe">Lee Clicker</h1>
         <h3>Auto Lee's</h3>
         <div style="font-size: 40px;" id="countNum">0</div>
         <a></a>
-        <button onclick="increment()"><img src="unnamed.png" alt=""></button>
-        <h6>woohoo</h6>
+        <div onclick="increment()"><img id="face" width="179px" height="209px"  src="hair.png" alt=""></div>
         <div>
-            <div class="flex-col padding">
-                <div class="col align-right">
-                    <button id="upgradeClick">Upgrade Lee! (25)</button>
-                    <button id="upgradeAuto">Auto Less 1/s (50)</button>
+            <div class="main">
+                <div class="m-left">
+                    <div id="upgradeClick"><div>Upgrade Lee! (1000)</div></div>
+                    <div id="upgradeAuto"><div>Auto Lees 1/s (50)</div></div>
                 </div>
-                <div class="col align-left">
-                    <div id="oneClick">Lee's Per Click: 0</div>
-                    <div id="oneSec">AutoLee's Per Second: 0</div>
+                <div class="m-right">
+                    <div id="oneClick">Lees Per Click: 0</div>
+                    <div id="oneSec">AutoLees Per Second: 0</div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
