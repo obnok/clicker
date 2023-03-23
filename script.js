@@ -16,10 +16,11 @@ document.getElementById('upgradeClick').addEventListener("click", function() {
     const counter = document.getElementById('countNum');
     const oneClick = document.getElementById('oneClick');
     let num = parseInt(counter.innerHTML,10);
-    if (num >= 25) {
+    if (num >= 1000) {
         inc++;
-        counter.innerHTML = num - 25;
-        oneClick.innerHTML = "Lee's Per Click: " + parseInt(oneClick.innerHTML,10)+1;
+        counter.innerHTML = num - 1000;
+        oneClick.innerHTML = "Lee's Per Click: " + 5;
+        document.getElementById("face").src="bald.png";
     }
 });
 

@@ -1,6 +1,50 @@
 body {
     width: 80%;
     margin: auto;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#face {
+    border-radius: 70%;
+    transition: opacity 50ms;
+}
+
+#face:hover {
+    opacity: 70%;
+}
+
+#upgradeClick {
+    width: 150px;
+    height: 50px;
+    background-color: #00CED1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+    transition: 300ms;
+}
+
+#upgradeClick:hover{
+    background-color: #00A2A4; 
+}
+
+#upgradeAuto {
+    width: 150px;
+    height: 50px;
+    background-color: #00CED1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+    transition: 300ms;
+}
+
+#upgradeAuto:hover{
+    background-color: #00A2A4; 
 }
 
 .center-button {
@@ -8,13 +52,24 @@ body {
     padding-block: 1rem;
 }
 
-.flex-col {
+.main{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.padding {
-    padding: 10px;
+.m-left{
+    width: 200px;
+}
+
+.m-right{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .padding-left {
