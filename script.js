@@ -14,23 +14,23 @@ function increment() {
 
 document.getElementById('upgradeClick').addEventListener("click", function() {
     const counter = document.getElementById('countNum');
-    const oneClick = document.getElementById('oneClick');
+    const oneClick = document.getElementById('oneClickCount');
     let num = parseInt(counter.innerHTML,10);
     if (num >= 1000) {
-        inc++;
+        inc += 5;
         counter.innerHTML = num - 1000;
-        oneClick.innerHTML = "Lee's Per Click: " + 5;
+        oneClick.innerHTML = (oneClick.innerHTML,10)+5;
         document.getElementById("face").src="bald.png";
     }
 });
 
 document.getElementById('upgradeAuto').addEventListener("click", function() {
     const counter = document.getElementById('countNum');
-    const oneSec = document.getElementById('oneSec');
+    const oneSec = document.getElementById('oneSecCount');
     let num = parseInt(counter.innerHTML,10);
     if (num >= 50) {
         LPS++;
         counter.innerHTML = num - 50;
-        oneSec.innerHTML = "AutoLee's Per Second: " + parseInt(oneSec.innerHTML,10)+1;
+        oneSec.innerHTML = parseInt(oneSec.innerHTML,10)+1;
     }
 });

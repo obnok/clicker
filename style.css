@@ -47,6 +47,14 @@ body {
     background-color: #00A2A4; 
 }
 
+#oneSec{
+    display: flex;
+}
+
+#oneClick{
+    display: flex;
+}
+
 .center-button {
     text-align: center;
     padding-block: 1rem;
